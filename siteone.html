@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Site 1</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@700&display=swap" rel="stylesheet">
+
+        <style>
+
+            body {
+                
+                background-image: linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)) , url("bg.jpg");
+                background-size: cover;
+                margin:0;
+
+                font-family: 'Raleway', sans-serif;
+
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                
+            }
+            li {
+
+
+                display: inline;
+                padding: 8px;
+                
+            }
+            .nav a {
+
+                text-decoration: none;
+                color: white;
+
+            }
+            .nav {
+                margin-right: 50px;
+                margin-left: 50px;
+                color: white;
+                
+            }
+            .nav a:hover {
+                color: #7e6344;
+                transition: color .4s linear;
+            }
+            #shop a{
+                color: white;
+                padding: 10px;
+                border: 1px solid;  
+                width: 20px;
+                
+                border-color: #7e6344;
+
+            }
+            
+            #shop a:hover {
+                color: #7e6344;
+                transition: color .4s linear;
+
+
+            }
+            .cont {
+                text-align: right;
+            }
+            #t{
+                position: absolute;
+                left: 150px;
+                top: 260px;
+                width: 150px;
+                background-color:  #7e6344;
+                border-color:  #7e6344;
+            }
+            #h{
+                position: absolute;
+                left: 320px;
+                top: 248px;
+                color: white;
+                font-size: 15px;
+                font-family: 'Red Hat Display', sans-serif;
+                letter-spacing: 0.3em;
+
+            }
+            .intro h1{
+                color: white;
+                font-family: 'Alexandria', sans-serif;
+                position: absolute;
+                left: 150px;
+                top: 300px;
+            }
+
+            .intro a{
+                color: white;
+                padding: 10px;
+                border: 1px solid;  
+                margin: auto;
+                background-color: #7e6344;
+                border-color: #7e6344;
+                text-decoration: none;
+                left: 150px;
+                top: 420px;
+                position: absolute;
+                font-size: 13px;
+                padding: 20px;
+                width: 150px;
+                text-align: center;
+                transition: color .4s linear;
+                transition: background-color .5s linear;
+            }
+            
+            .intro a:hover {
+                background-color: black;
+                color: #7e6344;
+
+
+
+            }
+            #look {
+                left: 350px;
+                top: 420px;
+                position: absolute;
+                background-color: black;
+                font-size: 13px;
+                padding: 20px;
+                width: 150px;
+                text-align: center;
+                transition: color .4s linear;
+            }
+            .imgs {
+                left: 550px;
+                top: 443px;
+                position: absolute;  
+            }
+            #ig {
+                left: 620px;
+                top: 445px;
+                position: absolute;  
+            }
+            .largebanner{
+                background-color: #1B1C1C; 
+                height: 200px; 
+                
+            }
+            ::-webkit-scrollbar {
+                width: 10px;
+                background-color: #191D1E;
+                
+            }
+
+                /* Track */
+                ::-webkit-scrollbar-track {
+                border-radius: 10px;
+
+            }
+
+                /* Handle */
+                ::-webkit-scrollbar-thumb {
+                background: #7e6367;
+                border-radius: 5px;
+                
+            }
+
+            #looks{
+                color: white;
+                font-size: 15px;
+                font-family: 'Red Hat Display', sans-serif;
+                letter-spacing: 0.3em;
+                text-align: center;
+                padding-top: 100px;
+            }
+            .col {
+                float: left;
+                width: 33.33%;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class='nav'>
+            
+            <ul style="padding: 10px;">
+                    <li style="text-align: left;"> LOGO<b>NAME</b></li>
+                <div class="cont">
+                    <li><a href="#aboutus">ABOUT US</a></li>
+                    <li><a href="#news">NEWS</a></li>
+                    <li><a href="#blog">BLOG</a></li>
+                    <li><a href="#contact">CONTACT US</a></li>
+                    <li style='color: #7e6344;'> (00) 900-123</li>
+                    <li id='shop'><a href="#shopnow">BOOK NOW</a></li>
+                </div>
+              </ul>
+        
+        </div>
+    
+        <div class="intro">
+            <hr id="t">
+            <h2 id="h"> BLOW YOUR MIND</h2>
+            <h1><b>BOOK THE MOST LUXURIOUS HOTELS FOR <br>THE CHEAPEST PRICE POSSIBLE</b></h1>
+            <a href="#book" id="books">BOOK NOW</a>
+            <a href="#looks" id="look">LOOK AROUND</a>
+        </div>
+        <div class="imgs">
+            <a href="https://www.tiktok.com"><img src="tiktok.png" style="width: 30px; height: 30px;filter: brightness(0) invert(1);"></a>
+            <a href="https://www.twitter.com"><img src="twet.png" style="width: 30px; height: 30px;filter: brightness(0) invert(1);"></a>
+            
+        </div>
+        <a href="https://www.instagram.com" id="ig"><img src="ig.png" style="width: 25px; height: 25px;filter: brightness(0) invert(1); "> </a>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+       <div class="largebanner" ></div> 
+       <br>
+       <br>
+       <br>
+       
+        <h2 style=
+        "color: white;
+        font-size: 19px;
+        font-family: 'Red Hat Display', sans-serif;
+        letter-spacing: 0.3em;
+        text-align: center;">
+        
+        OUR GALLERY</h2>
+        
+        <div id="looks">
+            <div class='col'>
+                <img src="florence.jpg" width="300" height="300">
+                <p> FLORENCE</p>
+            </div>
+
+            <div class='col'>
+                <img src="rome.jpg" width="300" height="300">
+                <p> ROME</p>
+            </div>
+
+            <div class='col'>
+                <img src="mal.jpg" width="300" height="300">
+                <p> MALDIVES</p>
+            </div>
+        </div>
+
+    </div>
+    </body>
+</html>
